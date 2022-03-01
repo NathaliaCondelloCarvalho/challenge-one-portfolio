@@ -1,8 +1,14 @@
 body {
     font-family: 'Raleway', sans-serif;
+    position: absolute;
+    width: 1440px;
+    height: 5020px;
+    left: 0px;
+    top: 0px;
+    background: #F5F5F5;
 }
 
-.caixa {
+nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -14,16 +20,40 @@ body {
     height: 88px;
     left: 152px;
     top: 0px;
-}
 
-.caixa div {
-    background: yellow;
+
+    /* Inside auto layout */
+
     flex: none;
     order: 0;
     flex-grow: 0;
     margin: 32px 0px;
 }
 
-.logo{
-    background: red;
+.logo {
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 611px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    position: static;
+    width: 642px;
+    height: 19px;
+    left: 494px;
+    top: 34.5px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 611px;
 }
