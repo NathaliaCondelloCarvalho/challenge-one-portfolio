@@ -8,13 +8,12 @@ body {
     background: #F5F5F5;
 }
 
-nav {
+.topo {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 32px 0px;
-
+    padding: 32px 50px;
     position: static;
     width: 1136px;
     height: 88px;
@@ -31,10 +30,47 @@ nav {
 }
 
 .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 334px;
+    height: 24px;
+    left: 0px;
+    top: 32px;
+    /* Inside auto layout */
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 0px 611px;
+    margin: 0px 0px;
+}
+
+.nome {
+    position: static;
+    width: 302px;
+    height: 19px;
+    left: 32px;
+    top: 2.5px;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #464646;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 8px;
+}
+
+.estrelas {
+    position: relative;
+    left:0px;
+    top: 2.5px;
 }
 
 .links {
