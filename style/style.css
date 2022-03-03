@@ -3,15 +3,15 @@ body {
     background: #F5F5F5;
     width: 100%;
     height: 5020px;
+    color: #464646
 }
 
 .caixa {
     width: 1136px;
     height: 88px;
     font-size: 1.1em;
-    color: #464646;
     margin: 0 auto;
-    position: relative /*levantar este elemento para segurar os elementos internos*/
+    position: relative /*para levantar este elemento para conter os elementos internos*/
 }
 
 .logo {
@@ -35,6 +35,7 @@ body {
     position: absolute;
     left: 29px;
     top: 7px;
+    font-size: 1em;
 }
 
 nav {
@@ -56,4 +57,62 @@ nav a:hover {
 nav li {
     display: inline;
     margin: 1px 5px;
+}
+
+.saudacao{
+    position: relative;
+    width: 1136px;
+    height: 368px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.saudacao-descritivo {
+    position: absolute;
+    width: 700px;
+    height: 246px;
+    left: 0px;
+    top: 50px;
+}
+
+.saudacao h2 {
+    font-weight: bolder;
+    font-size: 42px;
+    margin-bottom: 24px;
+}
+
+.saudacao h3 {
+    font-weight: normal;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.saudacao li {
+    display: inline;
+    margin-right: 5px;
+}
+
+.saudacao ul a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #464646;
+    margin-right: 60px;
+}
+
+.saudacao a:hover {
+    color: #ffbf00;
+}
+
+.saudacao ul img {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.saudacao-foto{
+    width: 368px;
+    height: 368px;
+    border-radius: 50%;
+    position: absolute;
+    right: 0px
 }
