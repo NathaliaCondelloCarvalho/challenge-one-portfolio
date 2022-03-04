@@ -3,13 +3,13 @@ body {
     background: #F5F5F5;
     width: 100%;
     height: 5020px;
-    color: #464646
+    color: #464646;
+    font-size: 1.1em;
 }
-
+/*header - barra superior*/
 .caixa {
     width: 1136px;
     height: 88px;
-    font-size: 1.1em;
     margin: 0 auto;
     position: relative /*para levantar este elemento para conter os elementos internos*/
 }
@@ -35,13 +35,13 @@ body {
     position: absolute;
     left: 29px;
     top: 7px;
-    font-size: 1em;
 }
 
 nav {
     position: absolute;
     bottom: 32px;
     right: 0px;
+    width: 642px;
 }
 
 nav a {
@@ -56,10 +56,12 @@ nav a:hover {
 
 nav li {
     display: inline;
-    margin: 1px 5px;
+    margin: 1px 15px;
+    font-size: 16px;
 }
 
-.saudacao{
+/*header - Olá*/
+.saudacao {
     position: relative;
     width: 1136px;
     height: 368px;
@@ -73,19 +75,20 @@ nav li {
     width: 700px;
     height: 246px;
     left: 0px;
-    top: 50px;
+    top: 20px;
 }
 
 .saudacao h2 {
-    font-weight: bolder;
+    font-weight: 700;
     font-size: 42px;
-    margin-bottom: 24px;
+    line-height: 51px;
+    margin-bottom: 30px;
 }
 
 .saudacao h3 {
-    font-weight: normal;
-    font-size: 24px;
-    margin-bottom: 50px;
+    font-size: 22px;
+    line-height: 31px;
+    margin-bottom: 40px;
 }
 
 .saudacao li {
@@ -95,7 +98,7 @@ nav li {
 
 .saudacao ul a {
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1em;
     color: #464646;
     margin-right: 60px;
 }
@@ -105,7 +108,7 @@ nav li {
 }
 
 .saudacao ul img {
-    width: 20px;
+    width: 18px;
     margin-right: 5px;
 }
 
@@ -115,4 +118,82 @@ nav li {
     border-radius: 50%;
     position: absolute;
     right: 0px
+}
+
+/*Sessão: sobre mim*/
+.sobre-mim {
+    position: absolute;
+    width: 100%;
+    height: 350px;
+    top: 520px;
+    background: #EAF2FD;
+}
+
+.sobre-mim-descritivo {
+    position: relative;
+    width: 1136px;
+    top: 64px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sobre-mim h4 {
+    width: 700px;
+    height: 38px;
+    left: 0px;
+    top: 0px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+
+}
+
+.sobre-mim p {
+    width: 700px;
+    left: 0px;
+    top: 0px;
+    margin-top: 20px;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.skills {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    top: 520px;
+    background: red;
+}
+
+.hobbies {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    top: 520px;
+    background: red;
+}
+
+.formacao {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    top: 520px;
+    background: red;
+}
+
+.projetos {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    top: 520px;
+    background: red;
+}
+
+.contatos {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    top: 520px;
+    background: red;
 }
