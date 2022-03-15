@@ -4,14 +4,15 @@ body {
     width: 100%;
     height: 5020px;
     color: #464646;
-    font-size: 1.1em;
 }
+
 /*header - barra superior*/
 .caixa {
     width: 1136px;
     height: 88px;
     margin: 0 auto;
     position: relative /*para levantar este elemento para conter os elementos internos*/
+
 }
 
 .logo {
@@ -46,25 +47,26 @@ nav {
 
 nav a {
     text-decoration: none;
-    font-size: 1em;
     color: #464646;
 }
 
 nav a:hover {
     color: #ffbf00;
+    font-size: 1.1rem;
 }
 
 nav li {
     display: inline;
     margin: 1px 15px;
-    font-size: 16px;
 }
+
+
 
 /*header - Olá*/
 .saudacao {
     position: relative;
     width: 1136px;
-    height: 368px;
+    height: 450px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
@@ -98,13 +100,13 @@ nav li {
 
 .saudacao ul a {
     text-decoration: none;
-    font-size: 1em;
     color: #464646;
     margin-right: 60px;
 }
 
 .saudacao a:hover {
     color: #ffbf00;
+    font-size: 1.1rem;
 }
 
 .saudacao ul img {
@@ -122,33 +124,86 @@ nav li {
 
 /*Sessão: sobre mim*/
 .sobre-mim {
-    position: absolute;
-    width: 100%;
-    height: 350px;
-    top: 520px;
+    position: relative;
+    height: 320px;
     background: #EAF2FD;
+    width: 100%;
 }
 
 .sobre-mim-descritivo {
     position: relative;
     width: 1136px;
-    top: 64px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 40px;
+}
+
+/*Sessão: skills e ferramentas*/
+.skills {
+    position: relative;
+    width: 1136px;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
 }
 
-.sobre-mim h4 {
+.skills h4 {
+    margin-top: 60px;
+}
+
+.skills-descritivo .hobbies-descritivo{
+    position: relative;
+    width: 1136px;
+    top: 20px;
+    text-align: center;
+}
+
+.skills li {
+    text-decoration: none;
+    display: inline;
+}
+
+.skills img {
+    width: 18px;
+    margin-left: 80px;
+}
+
+/*Sessão: hobbies*/
+.hobbies {
+    position: relative;
+    width: 1136px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hobbies li {
+    text-decoration: none;
+    font-size: 1em;
+    display: inline;
+}
+
+.hobbies img {
+    width: 18px;
+    margin-left: 80px;
+}
+
+.hobbies h4 {
+    margin-top: 60px;
+}
+
+/*Geral*/
+h4 {
     width: 700px;
     height: 38px;
     left: 0px;
     top: 0px;
     font-style: normal;
     font-weight: 700;
-    font-size: 32px;
-
+    font-size: 2rem;
 }
 
-.sobre-mim p {
+p {
     width: 700px;
     left: 0px;
     top: 0px;
@@ -158,21 +213,7 @@ nav li {
     line-height: 25px;
 }
 
-.skills {
-    position: relative;
-    width: 100%;
-    height: 300px;
-    top: 520px;
-    background: red;
-}
 
-.hobbies {
-    position: relative;
-    width: 100%;
-    height: 300px;
-    top: 520px;
-    background: red;
-}
 
 .formacao {
     position: relative;
@@ -196,4 +237,11 @@ nav li {
     height: 300px;
     top: 520px;
     background: red;
+}
+
+@media screen and (max-width: 480px){
+    .caixa .sobre-mim .sobre-mim-descritivo .skills  {
+        width: auto;
+    }
+
 }
