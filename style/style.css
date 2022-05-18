@@ -1,6 +1,6 @@
 body {
     font-family: 'Raleway', sans-serif;
-    background: #F5F5F5;
+    background: #fff;
     width: 100%;
     height: auto;
     color: #464646;
@@ -124,7 +124,7 @@ nav li {
     height: auto;
     width: 100%;
     padding-bottom: 3rem;
-    background: #EAF2FD;
+    background: #fff;
 
 }
 
@@ -180,7 +180,7 @@ nav li {
 .formacao {
     position: relative;
     height: auto;
-    background: #EAF2FD;
+    background: #F5F5F5;
     width: 100%;
     margin-top: 88px;
 }
@@ -245,7 +245,7 @@ nav li {
 .projetos {
     position: relative;
     height: auto;
-    background: #EAF2FD;
+    background: #F5F5F5;
     width: 100%;
     margin-top: 50px;
 }
